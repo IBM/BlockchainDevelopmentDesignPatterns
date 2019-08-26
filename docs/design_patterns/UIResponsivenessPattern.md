@@ -9,16 +9,16 @@ tags:
  - UI
 ---
 
-# Efficient UI for Asynchronoous Blockchain Interactions
+# Interactive UI for Complex Blockchain based applications
 
 ## Overview
 
-This design pattern starts by taking the reader through the problems that plague a traditional user interface when interacting with a Blockchain based application. The design pattern then presents some key concepts/approaches that can be used to alleviate the problem at hand and follows up by providing an end to end architecture and solution overview of how the different solution components can come together to create a responsive user interface. This design pattern uses Hyperledger Fabric 1.4 as its Blockchain reference.
+This design pattern starts by taking the reader through the problems that plague a traditional user interface when interacting with complex backend APIs with high response times. The design pattern then presents some key concepts/approaches that can be used to alleviate the problem at hand and follows up by providing an end to end architecture and solution overview of how the different solution components can come together to create an interactive user interface. This design pattern uses Hyperledger Fabric 1.4 as its Blockchain reference.
 
 
 ## Problem Statement
 
-In a traditional user interface when the user performs an action such as submitting a form, the user interface generally makes a blocking call to a backed API. The user generally sees the page refresh or a progress bar to indicate that the operation is in progress. Once the user interface receives a response from the backend API, the appropriate success or failure message is then displayed to the user. Normally this model works quite well assuming the backend API has a fast response time. But when dealing with Blockchain based applications we cannot expect millisecond response times (As per current level of maturity). Listed below are some considerations that are relevant for enterprise grade Blockchain based applications
+In a traditional user interface when the user performs an action such as submitting a form, the user interface generally makes a blocking call to a backed API. The user generally sees the page refresh or a progress bar to indicate that the operation is in progress. Once the user interface receives a response from the backend API, the appropriate success or failure message is then displayed to the user. Normally this model works quite well assuming the backend API has a fast response time. But when dealing with certain Blockchain based applications we cannot expect millisecond response times (As per current level of maturity). Listed below are some considerations that are relevant for complex enterprise grade Blockchain based applications
 
 ### User interaction with the UI
 Suppose a user fills up an invoice creation form and submits it via the user interface. The invoice content needs to be stored on the Blockchain. At the very minimum the backed application would need to perform the following operations 
