@@ -9,7 +9,7 @@
 The purpose of this repository is to document design patterns and development best practices when developing end to end applications using Blockchain.
 To start with I would be adding approaches, architecture and code snippets for the following design patterns. Please feel free to reach out to me for collaboration on any of the patterns. If you have some specific problems/patterns in mind that you do not see on the list please reach out and I would be happy to add them.
 
-- Responsive UI design for Blockchain based applications
+- Interactive UI design for Blockchain based applications
 - Asynchronous API design for Blockchain based applications
 - Secure sync and off chain query pattern for Blockchain based applications
 - Chaincode and client side application development for Blockchain Multi version concurrency control
