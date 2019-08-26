@@ -51,7 +51,7 @@ patterns by any of the following approaches
 
 | Pattern | Description | Status |
 |:-------:|:----------- |:------:|
-| [UIResponsivenessPattern](./docs/design_patterns/UIResponsivenessPattern.md) | Provides architecture for creating a rersponsive Blockchain application UI| ✔ |
+| [InteractiveUIPattern](./docs/design_patterns/UIResponsivenessPattern.md) | Provides architecture for creating an interactive Blockchain application UI| ✔ |
 | [B-pattern](./docs/design_patterns/xx.md) | Builds xxxx | ✔ |
 | [C-pattern](./docs/design_patterns/xx.md) | Defers xxxxx | ✔ |
 | [D-pattern](./docs/design_patterns/xx.md) | Instantiates and maintains xxxxx  | ✔ |
