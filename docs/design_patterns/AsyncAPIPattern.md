@@ -1,6 +1,6 @@
 ---
 layout: pattern
-title: UIResponsiveness
+title: AsyncAPI
 folder: async-api-pattern
 categories: UI
 tags:

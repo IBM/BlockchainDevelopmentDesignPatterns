@@ -52,9 +52,9 @@ patterns by any of the following approaches
 | Pattern | Description | Status |
 |:-------:|:----------- |:------:|
 | [InteractiveUIPattern](./docs/design_patterns/UIResponsivenessPattern.md) | Provides architecture for creating an interactive Blockchain application UI| ✔ |
-| [B-pattern](./docs/design_patterns/xx.md) | Builds xxxx | ✔ |
-| [C-pattern](./docs/design_patterns/xx.md) | Defers xxxxx | ✔ |
-| [D-pattern](./docs/design_patterns/xx.md) | Instantiates and maintains xxxxx  | ✔ |
+| [AsyncAPIPattern](./docs/design_patterns/AsyncAPIPattern.md) | Discusses the API design and the interaction with other components such as off chain store and the events service | ✔ |
+| [C-pattern](./docs/design_patterns/xx.md) | xxxxx | ✔ |
+| [D-pattern](./docs/design_patterns/xx.md) |  xxxxx  | ✔ |
 
 
 
