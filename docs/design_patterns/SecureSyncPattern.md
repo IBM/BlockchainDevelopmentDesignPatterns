@@ -173,7 +173,7 @@ The flowchart below captures the logical flow to follow when the consumer applic
 <body>
 
 
-<img src="./images/securesync-images/fig2.png" style="width:75%;">
+<img src="./images/securesync-images/fig-2.png" style="width:75%;">
 
 </body>
 </html>
