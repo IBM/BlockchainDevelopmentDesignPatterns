@@ -51,9 +51,9 @@ patterns by any of the following approaches
 
 | Pattern | Description | Status |
 |:-------:|:----------- |:------:|
-| [InteractiveUIPattern](./docs/design_patterns/UIResponsivenessPattern.md) | Provides architecture for creating an interactive Blockchain application UI| ✔ |
+| [NonBlockingUIPattern](./docs/design_patterns/UIResponsivenessPattern.md) | Provides design and architecture for creating an interactive  and non blocking Blockchain application UI| ✔ |
 | [AsyncAPIPattern](./docs/design_patterns/AsyncAPIPattern.md) | Discusses the API design and the interaction with other components such as off chain store and the events service | ✔ |
-| [C-pattern](./docs/design_patterns/xx.md) | xxxxx | ✔ |
+| [SecureSyncPattern](./docs/design_patterns/SecureSyncPattern.md) | It covers the design of the event service that can be used to securely sync Blockchain with an application’s off chain store | ✔ |
 | [D-pattern](./docs/design_patterns/xx.md) |  xxxxx  | ✔ |
 
 
