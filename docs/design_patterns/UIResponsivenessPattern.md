@@ -9,7 +9,7 @@ tags:
  - UI
 ---
 
-# Interactive UI for Complex Blockchain based applications
+# Non Blocking UI for Complex Blockchain based applications
 
 ## Overview
 
