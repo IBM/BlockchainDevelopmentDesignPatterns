@@ -208,15 +208,15 @@ The data being pushed by the event service can also be used for analytics and le
 
 * A dedicated consumer can be used to read data off the queue for analytics and learning purpose
 
-* Assuming the data is in JSON format, the consumer could then transform data into a traditional tabular relational format and store it in a standard RDMS.
-
-* This RDMS could then be used as a source of an ETL process that could load the data into a traditional data warehouse
-
+* Assuming the data is in JSON format, the consumer could then transform data into a traditional tabular relational format or  
+  appropriate format and populate a traditional data warehouse
+  
 * The data warehouse could then be used for standard business analytics, visualization, reporting etc
 
-* The data warehouse could also be used as a source for a computing framework such as Apache spark, which could use historical data as a part of its machine learning models
-
-* Another consumer could be used to read the data off the queue and stream it into Apache spark directly as well.
+* The data warehouse could also be used as a source for a computing framework such as Apache spark, which could use historical 
+  data as a part of its machine learning models
+  
+* Another consumer could be used to read the data off the queue and stream it into Apache spark directly as well. 
 
 ## Usage/Examples
 
