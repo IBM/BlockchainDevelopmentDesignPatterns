@@ -137,9 +137,9 @@ In order to implement a non-blocking user interface the backend data APIs need t
 <li>If user interface has exhausted all of its polling attempts and the transaction is still <strong>InProgress</strong> then the user interface could stop polling and wait for the transaction information to be fetched as a part of a user triggered action such as <strong>Get All Invoices</strong> or <strong>View pending invoices</strong> etc</li>
 </ol>
 
-For a deeper understanding of how to design an asynchronous RESTful API that talks to Blockchain please refer the design pattern for Asynchronous API **link to pattern**
+For a deeper understanding of how to design an asynchronous RESTful API that talks to Blockchain please refer the [design pattern for Asynchronous API](https://github.com/IBM/BlockchainDevelopmentDesignPatterns/blob/master/docs/design_patterns/AsyncAPIPattern.md)
 
-For a deeper understanding of and code samples for Long polling please refer to the Asynchronous API design pattern <link to pattern>
+For a deeper understanding of and code samples for Long polling please refer to the [Asynchronous API design pattern](https://github.com/IBM/BlockchainDevelopmentDesignPatterns/blob/master/docs/design_patterns/AsyncAPIPattern.md)
 
 ### Off Chain storage
 

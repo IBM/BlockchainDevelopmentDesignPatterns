@@ -1,7 +1,7 @@
 ---
 layout: pattern
 title: SecureSync
-folder: async-api-pattern
+folder: async-pattern
 categories: UI
 tags:
  - Blockchain
@@ -9,7 +9,7 @@ tags:
  - UI
 ---
 
-# SecureSync API Pattern
+# SecureSync Pattern
 
 ## Overview
 
@@ -82,8 +82,6 @@ The event service could leverage the default registration mechanism provided by 
 
 #### Event Producer
 
-<font color="red">**``<TODO>``** Add more detail on where the data resides in the block event/transaction</font>
-
 As mentioned earlier, once the event service receives block events from the channel event service, it can push these events (with optional transformation) to a messaging queue of choice. For the sake of discussion this pattern will take Kafka as an example.
 
 * The event producer would push the block events to a kafka topic
@@ -112,13 +110,13 @@ Exactly once ordered delivery would be the holy grail. But a more practical impl
 
 ### Consumer Application
 
-The consumer application design was discussed in detail in the second part of the design pattern series, which covered the async API pattern. In a nutshell the application layer is responsible for interacting with the Blockchain for submitting transactions and also providing the API layer for the end consumers to interact with. In addition, the consumer application is also responsible for implementing the client/consumer that can read data/block events off the queue being published to by the event service. The data provided by the event service can then be used to populate the off chain store. This in turn will help create a suitable representation of the data that is available on the ledger. The consumer application can then always directly query the off chain store instead of going to the ledger for fetching the data.
+The consumer application design was discussed in detail in the second part of the design pattern series, which covered the async pattern. In a nutshell the application layer is responsible for interacting with the Blockchain for submitting transactions and also providing the API layer for the end consumers to interact with. In addition, the consumer application is also responsible for implementing the client/consumer that can read data/block events off the queue being published to by the event service. The data provided by the event service can then be used to populate the off chain store. This in turn will help create a suitable representation of the data that is available on the ledger. The consumer application can then always directly query the off chain store instead of going to the ledger for fetching the data.
 
 As per the delivery semantics covered earlier, the consumer application would need to take care of the following
 
 <i>Handling duplicate block event delivery</i>
 
-Unless block event processing on the consumer side is important, the consuming application would need to keep track of the blocks it has already consumed. This way the consuming application can ignore any duplicate block events
+Unless block event processing on the consumer side is idempotent, the consuming application would need to keep track of the blocks it has already consumed. This way the consuming application can ignore any duplicate block events
 
 <i>Handling unordered block event delivery</i>
 
