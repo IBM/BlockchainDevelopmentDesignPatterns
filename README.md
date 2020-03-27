@@ -62,6 +62,8 @@ patterns by any of the following approaches
 
 If you are willing to contribute to the project you will find the relevant information in our [developer wiki](https://github.com/BlockchainAB/BlockchainDevelopmentDesignPatterns/wiki). We will help you and answer your questions in the [Slack Channel](slackchannel).
 
-# License
+## License
+This code pattern is licensed under the Apache Software License, Version 2. Separate third-party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the [Developer Certificate of Origin, Version 1.1 (DCO)](https://developercertificate.org/) and the [Apache Software License, Version 2](https://www.apache.org/licenses/LICENSE-2.0.txt).
 
-This project is licensed under the terms of the XXXXX license.
+[Apache Software License (ASL) FAQ](https://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN)
+ 
